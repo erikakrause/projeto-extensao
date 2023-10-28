@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cursos - Girls in Tech</title>
+  <link rel="stylesheet" href="assets/css/courses.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="header navbar-area">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="index.html">
+          <img class="logo" src="assets/image/logo-girls-in-tech.svg" alt="Logo">
+        </a>
+        <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+          <ul id="nav" class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="index.html" class="page-scroll active" aria-label="Toggle navigation">Home</a>
+            </li>
+            <li class="nav-item">
+              <a id="courses" href="courses.html" aria-label="Toggle navigation">Cursos e Bootcamps</a>
+            </li>
+            <li class="nav-item">
+              <a href="fale-conosco.html" class="page-scroll" aria-label="Toggle navigation">Fale
+                conosco</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <main class="filterContainer">
+        <section class="filter-item">
+          <div class="search">
+            <input class="searchCourse" id="searchCourse" type="search" placeholder="Procurar por instituição">
+          </div>
+        </section>
+      </main>
+    </div>
+  </header>
+
+  <section id="courses" class="courses-area">
+    <div class="container">
+      <div class="courses-content">
+        <h1 class="title-sentence">Cursos e Bootcamps</h1>
+        <span class="opening-text-2">Veja a seguir algumas recomendações de cursos e bootcamps gratuitos que podem
+          auxiliá-lo a dar início à sua jornada no universo da tecnologia.
+        </span>
+      </div>
+      <div class="cards">
+        <div class="cards-list" id="cards-list">
+        </div>
+      </div>
+
+  </section>
+  <script src="assets/js/courses.js" type="module"></script>
+</body>
+
+</html>
